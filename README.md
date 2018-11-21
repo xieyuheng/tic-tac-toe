@@ -1,4 +1,4 @@
-# tic-tac-toe with time-travel
+# tic-tac-toe
 
 ```
 npm install
