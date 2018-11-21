@@ -25,7 +25,7 @@ let Board = () => {
 
     let handleClick = (i: number) => {
         let s = squares.slice ();
-        if (calculateWinner (s) || squares[i]) {
+        if (calculateWinner (s) || s [i]) {
             return;
         }
         s [i] = next;
